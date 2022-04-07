@@ -13,18 +13,18 @@
             <input type="text" class="form-control" id="nomepet" name="nomepet" placeholder="Nome" /><br />
             <!--<input type="search" class="form-control" placeholder="Tutor"><button type="button" class="btn btn-primary">Pesquisar</button><br />-->
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Tutor" aria-label="Recipient's username"
+                <input type="text" class="form-control" placeholder="Tutor" id="nometutor" name="nometutor" aria-label="Recipient's username"
                     aria-describedby="button-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Pesquisar</button>
+                    <button class="btn btn-outline-primary" type="button" id="butaopesquisartutor" name="butaopesquisartutor" >Pesquisar</button>
                 </div>
             </div>
-            <input type="text" class="form-control" placeholder="Raça" /><br />
-            <input type="number" class="form-control" placeholder="Idade" /><br />
-            <textarea name="message" class="form-control" placeholder="Informações Adicionais"></textarea><br />
+            <input type="text" id="racapet" name="racapet" class="form-control" placeholder="Raça" /><br />
+            <input type="number" id="idadepet" name="idadepet" class="form-control" placeholder="Idade" /><br />
+            <textarea name="message" id="infadd" name="infadd" class="form-control" placeholder="Informações Adicionais"></textarea><br />
             <div style="float: right;">
-                <button type="clear" class="btn btn-outline-primary">Limpar</button>
-                <button type="submit" class="btn btn-outline-success">Cadastrar</button>
+                <button type="clear" id="btnlimparcadpet" name="btnlimparcadpet" class="btn btn-outline-primary">Limpar</button>
+                <button type="submit" id="btncadpet" name="btncadpet" class="btn btn-outline-success">Cadastrar</button>
             </div>
 
         </form>
@@ -50,8 +50,8 @@
             </tbody>
         </table>
         <div style="float: right;">
-            <button type="button" class="btn btn-outline-danger">Remover</button>
-            <button type="button" class="btn btn-outline-primary">Alterar</button>
+            <button type="button" id="btnremovepet" name="btnremovepet" class="btn btn-outline-danger">Remover</button>
+            <button type="button" id="btnalterapet" name="btnalterapet" class="btn btn-outline-primary">Alterar</button>
         </div>
     </div>
 </body>
